@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondotrivia"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="8dp" >
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/pregunta"
+            android:textSize="@android:dimen/app_icon_size"
+            android:textStyle="bold|italic"
+            android:typeface="sans"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp" >
+
+        <TextView
+            android:id="@+id/contadorPreguntas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/numPartida"
+            android:textColor="#ddd" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta1"
+            android:background="@drawable/botonborde"
+            android:textColor="#fff"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="2dp" />
+        
+         <Button
+             android:id="@+id/button2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/respuesta2"
+            android:background="@drawable/botonborde"
+            android:textColor="#fff"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="2dp" />
+
+         <Button
+             android:id="@+id/button4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/respuesta3"
+            android:background="@drawable/botonborde"
+            android:textColor="#fff"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="2dp" />
+
+         <Button
+             android:id="@+id/button3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/respuesta4"
+            android:background="@drawable/botonborde"
+            android:textColor="#fff"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="2dp" />
+         
+         <Button
+             android:id="@+id/button5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/nuevaPartida"
+             android:visibility="gone"
+            android:background="@drawable/botonborde"
+            android:textColor="#fff"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="1dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
